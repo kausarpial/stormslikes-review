@@ -1,0 +1,129 @@
+/*!------------------------------------------------------------------
+[MAIN STYLESHEET]
+
+PROJECT:	Stormlikes
+VERSION:	1.0.0
+-------------------------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700|Raleway:400,500,600,700");
+.page__header {
+  position: relative;
+  padding: 150px 0 200px;
+  background-image: linear-gradient(152deg, #377fea 0, #8051f9 67%);
+  overflow: hidden;
+}
+
+.page__header-title {
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.page__header-subtitle {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.page__header-separator {
+  position: absolute;
+  left: -1%;
+  height: auto;
+  width: 102%;
+  bottom: 0;
+  border-bottom: 1px solid #fff;
+}
+
+.sales__pitch {
+  padding: 100px 0;
+  background-image: url("../images/pattern_opacity_06.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.sales__pitch-content h3 {
+  font-family: "Raleway", sans-serif;
+  color: #3e396b;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 45px;
+  margin-bottom: 30px;
+}
+
+.sales__pitch-content p {
+  color: #818181;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  line-height: 30px;
+}
+
+.customer__reviews {
+  padding: 100px 0;
+}
+
+.customer__reviews-heading h3 {
+  font-family: "Raleway", sans-serif;
+  color: #3e396b;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 45px;
+  margin-bottom: 30px;
+}
+
+.customer__reviews-heading p {
+  color: #818181;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  line-height: 30px;
+  width: 70%;
+  margin: 0 auto 50px;
+}
+
+.customer__reviews-item {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 27px 3px rgba(0, 0, 0, 0.06);
+  padding: 40px 30px;
+  margin-bottom: 50px;
+}
+
+.customer__reviews-item h5 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #3e396b;
+}
+
+.customer__reviews-item h6 {
+  font-weight: 700;
+  color: #3e396b;
+}
+
+.customer__reviews-item p {
+  color: #818181;
+  font-size: 15px;
+  line-height: 26px;
+}
+
+.customer__reviews-item .reply {
+  padding: 20px 20px 20px 40px;
+  background-color: #f2f2f2;
+  border-left: 4px solid #44D6A9;
+}
+
+.customer__reviews-item .reply h6 {
+  margin-bottom: 5px;
+}
+
+.customer__reviews-item .reply p {
+  font-size: 14px;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+/*# sourceMappingURL=maps/style.css.map */
